@@ -1,0 +1,34 @@
+*, ::after, ::before {
+   box-sizing: border-box;
+}
+body{
+   margin: 0;
+   font:16px/1.25 Arial,serif;
+   position: relative;
+   appearance: none;
+}
+.wrapper{
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   max-width: 100%;
+}
+.d-flex{
+   display: flex;
+}
+.centered{
+   min-width: 890px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+h1,h2,h3,h4,h5,h6,p{
+   margin: 0;
+   padding: 0;
+}
+:root{
+   --color:rgba(255, 183, 39, 1);
+   --hover:#191919;
+   
+}
